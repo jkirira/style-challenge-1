@@ -57,6 +57,10 @@ button{
     text-align: center;
 }
 
+.first-section-footer-text{
+    padding: 0 100px !important;
+}
+
 .about{
     text-align: center;
     height: 100%;
@@ -80,10 +84,6 @@ button{
     background-size: cover;
     position: relative;
     height: 50vh;
-}
-
-.amenities-cards{
-
 }
 
 .amenities-cards>.card{

@@ -45,6 +45,9 @@ button {
   color: #ffffff;
   text-align: center; }
 
+.first-section-footer-text {
+  padding: 0 100px !important; }
+
 .about {
   text-align: center;
   height: 100%; }
