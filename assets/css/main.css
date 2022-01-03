@@ -1,0 +1,153 @@
+@import url(../../node_modules/foundation-sites/dist/css//foundation.css);
+.wrapper {
+  padding: 0 10px;
+  overflow: hidden; }
+
+.menu-icon-wrapper {
+  padding: 10px;
+  background-color: #000000; }
+
+.top-bar {
+  background: transparent;
+  color: #ffffff; }
+
+.logo {
+  padding: 0 50px; }
+
+button {
+  padding: 10px; }
+
+.white-transparent-button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent; }
+
+.first-section {
+  height: 100vh;
+  color: white; }
+
+.first-section-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/orange-dining-room.jpg);
+  background-size: cover;
+  position: relative;
+  height: 75%; }
+
+.info-card {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 40%;
+  padding: 0 50px; }
+
+.first-section-footer {
+  height: 25%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center; }
+
+.about {
+  text-align: center;
+  height: 100%; }
+
+.about-text {
+  padding: 100px;
+  margin-top: 20px; }
+
+.amenities {
+  height: 100%; }
+
+.amenities-header {
+  padding: 30px;
+  margin-bottom: 50px; }
+
+.amenities-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/amenities.jpg);
+  background-size: cover;
+  position: relative;
+  height: 50vh; }
+
+.amenities-cards > .card {
+  min-height: 300px; }
+
+.amenities-menu {
+  position: absolute;
+  top: -5%;
+  background: #ffffff;
+  width: 80%; }
+
+.amenities-menu > .cell {
+  border-top: 2px solid lightgray; }
+
+.amenities-text {
+  width: 100%;
+  color: #ffffff; }
+
+.contact-us {
+  margin: 100px 100px; }
+
+.contact-form-wrapper {
+  position: relative; }
+
+.contact-form {
+  position: absolute;
+  top: -400%;
+  right: -10%; }
+
+.black-bg {
+  background-color: #000000;
+  color: #ffffff; }
+
+.white-bg {
+  background-color: #ffffff;
+  color: #000000; }
+
+.footer {
+  background: #000000;
+  color: #ffffff;
+  padding: 100px;
+  width: 100%; }
+
+.footer ul {
+  text-decoration: none;
+  list-style: none; }
+
+.footer-container {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+@media (max-width: 640px) {
+  .top-bar {
+    background-color: #000000;
+    color: #ffffff; }
+  .logo {
+    padding: 0 10px; }
+  footer {
+    padding: unset; } }
+
+@media (max-width: 800px) {
+  .first-section-footer {
+    height: unset;
+    padding: 30px; }
+  .more-projects {
+    justify-content: flex-start; }
+  .amenities-header {
+    margin-bottom: 0; }
+  .amenities-body {
+    flex-direction: column;
+    height: 80vh; }
+  .amenities-text {
+    padding: 30px; }
+  .amenities-menu {
+    position: relative;
+    top: unset; }
+  .contact-us {
+    margin: 0 100px 100px; } }
+
+@media (max-width: 1024px) {
+  .contact-form {
+    position: relative;
+    top: unset;
+    right: unset; }
+  .amenities-text {
+    margin-top: 100px; } }
